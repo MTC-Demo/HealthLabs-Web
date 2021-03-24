@@ -3,7 +3,7 @@ name: HealthLabs-Web-CI
 on: [push, pull_request]
 
 jobs:
-  Dotnet Build Restore and Test:
+  DotnetBuild:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2

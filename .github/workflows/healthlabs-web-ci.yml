@@ -1,6 +1,6 @@
 name: HealthLabs-Web-CI
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   CI:

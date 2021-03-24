@@ -3,10 +3,8 @@ name: HealthLabs-Web-CI
 on: [push, pull_request]
 
 jobs:
-  CI:
-
+  Dotnet Build, Restore and Test:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET Core
